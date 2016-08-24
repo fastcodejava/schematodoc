@@ -7,7 +7,7 @@ When a yaml file is used, we get the documentation for a particular URL and it m
 
 ## Use with Node
 
-    $ npm install generatedocument
+    $ npm install schematodoc
 	
 # Usage
 
@@ -17,7 +17,7 @@ The test.js file has the implementation to execute the module.
 There is a generatedocument.js, that has the implementation for generating document from the output given by the module.
 If there is no function given by the user, the above function will be used to generate the document.
 
-to execte:
+to execute:
 
 when input file is yaml file:
 

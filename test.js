@@ -6,7 +6,7 @@ var gen = require('./lib/parseSchema');
 //var gen = require('generatedocument');
 var inputFilePath = './swagger2.yaml'; //path to yaml file
 
-var url = '/billing/subscriptions';
+var url = '';
 var method = 'post';
 gen.generateDocFromSwagger(inputFilePath, generateFunction, url, method);
 

@@ -1,6 +1,6 @@
 {
   "name": "generatedocument",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Gautam Dev <gdind2003@gmail.com>",
   "description": "generate documentation for swagger schema, not yet ready",
   "main": "index.js",

@@ -1,8 +1,8 @@
 {
   "name": "schematodoc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Gautam Dev <gdind2003@gmail.com>",
-  "description": "generate documentation for swagger schema, not yet ready",
+  "description": "generate documentation for swagger schema",
   "main": "index.js",
   "dependencies": {
 	"lodash": "4.15.0",

@@ -29,6 +29,14 @@ gen.generateDocFromSwagger(inputFile, url, method, {save: true, outputFile: inpu
 
 The generated documentation will be written in the given file.
 
+One can customize the output according to one's needs. You have to create a function similar to the one : https://github.com/fastcodejava/schematodoc/blob/master/lib/generateOutput.js 
+and supply the function as shown below :
+
+```js
+gen.generateDocFromSwagger(inputFile, url, method, {save: true, outputFile: inputFile}, mygenFunc);
+```
+
+
 ```js
 var gen = require('schematodoc');
 var inputFile = './api/swagger/swagger.yaml'; //path to yaml file

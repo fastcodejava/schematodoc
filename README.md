@@ -7,7 +7,7 @@ When a yaml file is used, we get the documentation for a particular URL and it m
 
 ## Use with Node
 
-    $ npm install schematodoc --g
+    $ npm install schematodoc
 	
 # Usage
 

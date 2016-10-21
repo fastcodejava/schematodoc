@@ -61,6 +61,18 @@ If the swagger document you are using has anchor variables and/or references the
       abc: *abc
      cache-session: *xyz
 
+The parser throws exception at line cache-session: *xyz
+
+    error: unidentified alias "xyz" at line 28, column 22:
+    cache-session: *xyz
+    ^
+
+To work around this, we need to add some dummy text, after the anchor definition as shown below:
+
+    x-a127-config:
+      abc: &ABC 
+      xyz: &xyz CONFIG
+
 calling the module for json file:
 
     var key = 'User';

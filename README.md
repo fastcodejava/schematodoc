@@ -47,7 +47,20 @@ gen.generateDocFromSwagger(inputFile, url, method, {save: false});
 ```
 	
 The generated documentation will be written in the console.
-	
+
+**Note** : 
+
+If the swagger document you are using has anchor variables and/or references them, the library will throw an exception.
+
+    x-a127-config:
+      abc: &ABC 
+      xyz: &xyz 
+
+
+    x-a127-services:
+      abc: *abc
+     cache-session: *xyz
+
 calling the module for json file:
 
     var key = 'User';

@@ -1,6 +1,6 @@
 {
   "name": "schematodoc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Gautam Dev <gdind2003@gmail.com>",
   "description": "generate documentation for swagger schema",
   "main": "index.js",

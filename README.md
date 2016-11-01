@@ -16,7 +16,7 @@ One can use that to get the document in the desired format.
 
 To execute:
 
-Please do install using `npm install schematodoc  --g` and create a file `test.js` in the app root as shown below.
+Please do install using `npm install schematodoc` and create a file `test.js` in the app root as shown below.
 
 ```js
 var gen = require('schematodoc');

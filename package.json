@@ -5,7 +5,7 @@
   "description": "generate documentation for swagger schema",
   "main": "index.js",
   "dependencies": {
-	"lodash": "4.17.0",
+	"lodash": "4.16.0",
 	"js-yaml": "3.6.1",
 	"splitargs": "0.0.7",
 	"write-yaml": "0.2.2"

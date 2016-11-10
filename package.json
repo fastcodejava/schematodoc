@@ -1,11 +1,11 @@
 {
   "name": "schematodoc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Gautam Dev <gdind2003@gmail.com>",
   "description": "generate documentation for swagger schema",
   "main": "index.js",
   "dependencies": {
-	"lodash": "4.15.0",
+	"lodash": "4.17.0",
 	"js-yaml": "3.6.1",
 	"splitargs": "0.0.7",
 	"write-yaml": "0.2.2"
